@@ -1,12 +1,12 @@
 # Quiz Web Programming
-Nama    : Stefanus Luigi Marcellino/
-Kelas   : PPTI 12/
-NIM     : 2502041306/
+Nama    : Stefanus Luigi Marcellino\
+Kelas   : PPTI 12\
+NIM     : 2502041306\
 
-Berikut adalah tampilan web dengan mengimplementasikan controller, blade template engine, foreach, if, yield, extends, section/
+Berikut adalah tampilan web dengan mengimplementasikan controller, blade template engine, foreach, if, yield, extends, section\
 
 # List Product Page
-![Product](https://github.com/StefanusLuigiMarcellino/quiz/blob/main/public/img/product1.png?raw=true)
+![Product](https://github.com/StefanusLuigiMarcellino/quiz/blob/main/public/img/product1.png?raw=true)\
 ![Product](https://github.com/StefanusLuigiMarcellino/quiz/blob/main/public/img/product2.png?raw=true)
 
 # Detail Product Page
