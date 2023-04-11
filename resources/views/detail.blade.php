@@ -3,8 +3,8 @@
 @section('title', $product["name"])
 
 @section('cards')
-    <h1>Selected product:</h1>
-    <div class="card" style="border: solid black;
+    <h1 style="margin-left: 3vw">Selected product:</h1>
+    <div class="card p-2 text-center" style="width: 50vw; margin-left: 3vw; border: solid black;
         @if ($product["status"] == 'R')
             background-color: silver
         @elseif ($product["status"] == 'SR')
@@ -12,9 +12,9 @@
         @elseif ($product["status"] == 'SSR')
             background-color: red
         @endif">
-        <h1>Product name: {{ $product["name"] }}</h1>
-        <h4>Product desc: {{ $product["desc"] }}</h4>
-        <h3>Product status: {{ $product["status"] }}</h3>
-        <h4>Product price: Rp{{ $product["price"] }}</h4>
+        <h1>{{ $product["name"] }}</h1>
+        <p>Desc: {{ $product["desc"] }}</p>
+        <h3>Status: {{ $product["status"] }}</h3>
+        <h4>Price: Rp{{ $product["price"] }}</h4>
     </div>
 @endsection
