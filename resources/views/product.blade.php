@@ -16,7 +16,7 @@
                         background-color: red
                     @endif">
                     <h1>{{ $product["name"] }}</h1>
-                    <img class="rounded mx-auto d-block" style="width: 80%; height: 30%" src="img/{{ $product["id"] }}.jpg" alt="">
+                    <img class="rounded mx-auto d-block" style="width: 80%; height: 30%" src="img/{{ $product["image"] }}" alt="">
                     <p>Desc: {{ $product["desc"] }}</p>
                     <h3>Status: {{ $product["status"] }}</h3>
                     <h4>Price: Rp{{ $product["price"] }}</h4>
